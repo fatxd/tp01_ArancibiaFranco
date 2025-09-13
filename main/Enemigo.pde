@@ -9,9 +9,7 @@ class Enemigo {
     this.velocidad = 150;
     this.diametro = 50;
   }
-
-
-
+  
   public void display() {
     fill(255, 0, 0);
     noStroke();
