@@ -19,11 +19,11 @@ public void draw() {
   tiempoInicio = tiempoActual;
 
 
-  //player.mover(w, s, a, d, deltaTime);
-  //enemigo.mover(player, deltaTime);
+  player.mover(w, s, a, d, deltaTime);
+  enemigo.mover(player, deltaTime);
 
  
-  //player.verificarColision(enemigo);
+  player.verificarColision(enemigo);
 
 
   player.display();
